@@ -3,8 +3,7 @@
 .bgImgage-container {
     background-image: url(https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
-    /*   height: 250px;
-  width: 430px; */
+    
     height: 270px;
     width: 100%;
     display: flex;
@@ -114,8 +113,7 @@
 }
 
 .delete_icon {
-    /*  display: inline-block;
-   font-size: 20px; */
+   
     color: black;
     padding: 15px;
 
