@@ -2,19 +2,7 @@ let todoItemsContainer = document.getElementById("todoItemsContainer");
 let add_btn_element = document.getElementById("add_btn");
 let saveBtnElement = document.getElementById("savebtn");
 
-// let todoList = [{
-//         text: "Learn html",
-//         uniqueNo: 1
-//     },
-//     {
-//         text: "Learn editing",
-//         uniqueNo: 2
-//     },
-//     {
-//         text: "Learn Js",
-//         uniqueNo: 3
-//     }
-// ];
+
 
 
 function getElementsFromLocalStorege() {
@@ -34,27 +22,7 @@ saveBtnElement.onclick = function() {
     localStorage.setItem("todoList", JSON.stringify(todoList));
 }
 
-// function ontodostatuschange(checkbox_id, taskid, todoid) {
-//     let checkbox_element = document.getElementById(checkbox_id);
-//     let taskid_element = document.getElementById(taskid);
-//     taskid_element.classList.toggle("checked");
-//     let todoObjecIndex = todoList.findIndex(function(eachTodo) {
-//         let eachTodoid = "todoiscomment" + eachTodo.uniqueNo;
-//         if (eachTodoid === todoid) {
-//             return true;
-//         } else {
-//             return false;
 
-//         }
-//     });
-//     let todoObject = todoList[todoObjecIndex];
-//     if (todoObject.ischecked === true) {
-//         todoObject.ischecked = false;
-//     } else {
-//         todoObject = true;
-//     }
-
-// }
 function ontodostatuschange(checkbox_id, taskid, todoid) {
     let checkbox_element = document.getElementById(checkbox_id);
     let taskid_element = document.getElementById(taskid);
